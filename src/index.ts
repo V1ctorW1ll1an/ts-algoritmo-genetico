@@ -10,7 +10,7 @@ import { IIndividual } from "./interfaces/IIndividuals";
 import _ from "lodash";
 
 const populationSize = 500;
-const genes = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const genes = "abcdefghijk lmnopqrstuvwxyz";
 const target = "victor";
 
 export class Individual implements IIndividual {
