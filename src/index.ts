@@ -9,9 +9,9 @@
 import { IIndividual } from "./interfaces/IIndividuals";
 import _ from "lodash";
 
-const populationSize = 100;
-const genes = "abcdefghijklmnopqrstuvwxyz";
-const target = "marcos";
+const populationSize = 500;
+const genes = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const target = "victor";
 
 export class Individual implements IIndividual {
     public fitness;
